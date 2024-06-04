@@ -1,0 +1,150 @@
+.Production {
+  margin: 64px 0;
+  width: 100%;
+  border-top: 1px solid rgb(51, 54, 58);
+  .content {
+    width: 100%;
+    margin: 64px 0;
+    .top {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      gap: 16px;
+      .last_title {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        max-width: 186px;
+        width: 100%;
+        height: 30px;
+        border-radius: 15px;
+        box-shadow: 0px 1px 3px 0px rgba(25, 32, 44, 0.04);
+        background: rgb(198, 246, 213);
+
+        color: rgb(54, 162, 105);
+        font-family: Inter;
+        font-size: clamp(10px, 2vw, 14px);
+        font-weight: 600;
+        line-height: 22px;
+        letter-spacing: 0px;
+        text-align: left;
+      }
+      .title {
+        max-width: 768px;
+        width: 100%;
+
+        color: rgb(217, 227, 234);
+        font-family: Inter;
+        font-size: clamp(16px, 8vw, 40px);
+        font-weight: 800;
+        line-height: 50px;
+        letter-spacing: -0.5px;
+        text-align: center;
+      }
+      .text {
+        width: 100%;
+        max-width: 768px;
+
+        color: rgb(217, 227, 234);
+        font-family: Inter;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 30px;
+        letter-spacing: -0.25px;
+        text-align: left;
+        span {
+          color: rgb(72, 187, 120);
+          background-color: rgb(72, 187, 120);
+          margin: 0 15px;
+        }
+      }
+    }
+    .ilustration {
+      margin-top: 80px;
+      width: 100%;
+      .info {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 64px;
+        margin: 0 auto;
+        @media (max-width: 919px) {
+          flex-direction: column;
+        }
+        .string {
+          width: 100%;
+          max-width:  590px;
+          // margin: 0 auto;
+
+          .link {
+            max-width: 232px;
+            width: 100%;
+            color: rgb(93, 93, 255);
+            font-family: Architects Daughter;
+            font-size: clamp(12px, 3vw, 20px);
+            font-weight: 400;
+            line-height: 30px;
+            letter-spacing: 0.25px;
+            text-align: left;
+          }
+          .title {
+            margin: 9px 0;
+            max-width: 500px;
+            width: 100%;
+            color: rgb(217, 227, 234);
+            font-family: Inter;
+            font-size: clamp(14px, 6vw, 32px);
+            font-weight: 700;
+            line-height: 42px;
+            letter-spacing: -0.25px;
+            text-align: left;
+          }
+          .discription {
+            max-width: 500px;
+            width: 100%;
+            color: rgb(155, 169, 180);
+            font-family: Inter;
+            font-size: clamp(12px, 3vw, 20px);
+            font-weight: 400;
+            line-height: 30px;
+            letter-spacing: -0.25px;
+            text-align: left;
+          }
+          .list {
+            margin-top: 16px;
+            max-width: 500px;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: 8px;
+            p {
+              display: flex;
+              align-items: center;
+              gap: 10px;
+              width: 100%;
+              color: rgb(155, 169, 180);
+              font-family: Inter;
+              font-size: clamp(10px, 3vw, 18px);
+              font-weight: 400;
+              line-height: 27px;
+              letter-spacing: -0.25px;
+              text-align: left;
+              span {
+                color: rgb(72, 187, 120);
+              }
+            }
+          }
+        }
+        .image {
+          max-width:  590px;
+          width: 100%;
+          img {
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+}
